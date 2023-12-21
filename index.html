@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,600&display=swap" rel="stylesheet">
+    <title>Positiva-PSD</title>
+</head>
+<body>
+<header>
+ <div class="utility_bar">
+    <div class="rectangle-1">
+        <div class="box-orange">
+        <a  href="#">Ayuda</a></div>
+        <a class="brd1" href="#">Mapa del sitio   AAA</a> 
+    </div>
+    <div class="rectangle-2">
+        <a href="#">miercoles,10 de julio de 2015</a>
+    </div>
+    <div class="rectangle-3">
+      <img  style="padding-top: 5px;" src="./assets/ICONO.png">
+      <a href="#" class="icon1">
+      <span class="icon1-mob">Proceso ante accidente laboral</span></a>
+      <a href="#" class="iconmid">accidente laboral</a>
+      <a href="#" class="icon-mob2">Iniciar sesión</a>
+      <a href="#" class="icon2" ></a>
+      <img style="padding-top: 5px;" src="./assets/Ellipse 2 copy.png">
+    </div>
+ </div>
+ <div class="empty_bar">
+   
+ </div>
+ <div class="logo_bar">
+   <img class="logo" src="/assets/logo.png"/>
+   <img class="mobile-nav" id="img-mob" onclick="toggleMobileMenu(this)" src="assets/feather_menu.svg"/>
+   <img class="logo-r1" src="/assets/logo-bar-r1.png"/>
+   <img class="logo-r2"   src="assets/logo-bar-r2.png"/>
+ </div>
+ <div class="mobile-menu" id="mobileMenu">
+  <form action="index.html" method="post" class="search-bar" style="min-width: 258px;">
+    <input type="text" name="search" placeholder="Busqueda" class="search-input" >
+    <button type="submit" class="search-btn"><img src="/assets/icono search.svg" alt="" class="search-btn"></button>
+</form>
+  <a href="#">INICIO</a>
+  <a href="#" style="display: block;">
+    <span>LA COMPAÑÍA</span>
+    <img src="assets/Path.svg" alt="La Compañía" style="width:30px;height:14px;float:right;" onclick="toggleDivVisibility()">
+  </a>
+  <div id="toggleDiv">
+    <!-- Content of the div -->
+   <a href="#">Quienes Somos Organigrama</a>
+   <a href="#"> Misión y Visión</a>
+   <a href="#">Objetivos y Funciones</a>
+   <a href="#">Organigrama</a>
+  </div>
+  <a href="#" style="display: block;">
+    <span>ARL</span>
+    <img src="assets/Path.svg" alt="ARL" style="width:30px;height:14px;float:right;">
+  </a>
+  <a href="#">SEGUROS DE VIDA</a>
+  <a href="#">ATENCIÓN AL CIUDADANO</a>
+  <div class="mob-bottom-logos">
+    <img  src="/assets/logo-bar-r1.png"/>
+    <img  src="assets/logo-bar-r2.png"/>
+  </div>
+</div>
+ <nav id="nav_options">
+ <div class="navigation_bar">
+  <ul class="links">
+  <li><a class="links" href="#" >INICIO</a></li>
+  <li><a class="links" href="#" onmousedown="closecompany()" onmouseover="toggleCompany()" >LA COMPAÑÍA</a>
+    <div id="companyContent" class="company-content" style="display: none;">
+      <div class="navlinks" style="display: flex;">
+      <ul style="display: flex;flex-direction: column;">
+          <li><a class="navbarin" href="#">Quienes Somos<hr></a>
+          <li><a class="navbarin"   href="#">Misión y Visión<hr></a>
+          <li><a class="navbarin"   href="#">Objetivos y Funciones<hr></a>
+          <li><a class="navbarin"   href="#">Organigrama<hr></a>
+          <li><a  class="navbarin"  href="#">Propuesta de Valor<hr></a>
+          <li><a class="navbarin"  href="#">Valores</li></a>
+      </ul>
+      <ul style="display: flex;flex-direction: column;">
+        <li><a class="navbarin"  href="#">Fortalezas<hr></a></li>
+        <li><a class="navbarin"  href="#">Nuestra Marca<hr></a></li>
+        <li><a class="navbarin"  href="#">Directorio de Entidades y Agremiaciones<hr></a></li>
+        <li><a class="navbarin"  href="#">Certificaciones de Calidad<hr></a></li>
+        <li><a class="navbarin"  href="#">Directorio de funcionarios<hr></a></li>
+      </ul>
+      </div>
+  </div>
+    </li>
+  <li><a class="links" href="#" >ARL</a></li>
+  <li><a class="links" href="#" >SEGUROS DE VIDA</a></li>
+  <li><a class="links" href="#" >ATENCIÓN AL CIUDADANO</a></li>
+  </ul>
+  <form action="index.html" method="post" class="search-bar">
+    <input type="text" name="search" placeholder="Busqueda" class="search-input" >
+    <button type="submit" class="search-btn"><img src="/assets/icono search.svg" alt="" class="search-btn"></button>
+</form>
+ </div>
+ </nav>
+ </header>
+ <div class="hero" >
+  <div class="toptxt_slider" > 
+    <!-- Owl Carousel Slider -->
+   <div class="owl-carousel owl-theme">
+     <div class="item">
+       <img src="/assets/back.png" alt="Image 1">
+       <div class="content-top-slider">
+         <p class="text-slider">GARANTIZA <span class="txt1">EL</span> BIENESTAR<br> 
+           <span class="txt2">DE TUS</span><br>
+           <span class="txt3">EMPLEADOS</span><br>
+           <span class="txtcon">CON</span>
+             <span class="txt4"> POSITIVA</span> 
+           </p>      
+       </div>
+     </div>
+     <div class="item">
+       <img src="/assets/back.png" alt="Image 2">
+       <div class="content-top-slider">
+         <p class="text-slider">GARANTIZA <span class="txt1">EL</span> BIENESTAR<br> 
+           <span class="txt2">DE TUS</span><br>
+           <span class="txt3">EMPLEADOS</span><br>
+           <span class="txtcon">CON</span>
+             <span class="txt4"> POSITIVA</span> 
+           </p>   
+       </div>
+     </div>
+     <div class="item">
+       <img src="/assets/back.png" alt="Image 3">
+       <div class="content-top-slider">
+         <p class="text-slider">GARANTIZA <span class="txt1">EL</span> BIENESTAR<br> 
+           <span class="txt2">DE TUS</span><br>
+           <span class="txt3">EMPLEADOS</span><br>
+           <span class="txtcon">CON</span>
+             <span class="txt4"> POSITIVA</span> 
+           </p>   
+       </div>
+     </div>
+   </div>
+   <div class="cards-container" style="position: relative;z-index: 2;">
+    <div class="swipercards" >
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper" >
+        <!-- Slides -->
+        <div class="swiper-slide slide2" >
+          <div class="sl-card1" >
+            <div class="shown-card1">
+          <div class="sl-card-image">
+            <img src="/assets/Frame.png"/>
+            </div>
+            <div class="sl-cardac-content">
+              <p>RIESGOS LABORALES</p>
+              <a href="#" style="padding-left: 83px;">ARL</a>
+            </div>
+            </div>
+          <div class="hidden-card1">
+            <div class="hidden-card-content">
+               <p>Vida Individual<br> Vida Grupo<br><br>
+              Accidentes<br>Personales</p>
+              <button class="hover-btn-card">VER MÁS</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide2" >
+          <div class="sl-card2">
+            <div class="shown-card2">
+              <div class="sl-card-image">
+                <img src="/assets/Objeto inteligente vectorial(6).svg"/>
+                </div>
+                <div class="sl-cardac-content">
+                  <p>ORIESGOS LABORALES</p>
+                  <a href="#" style="padding-left: 83px;">NRL</a>
+                </div>
+                </div>
+              <div class="hidden-card2">
+                <div class="hidden-card-content">
+                   <p>Vida Individual<br> Vida Grupo<br><br>
+                  Accidentes<br>Personales</p>
+                  <button class="hover-btn-card">VER MÁS</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide2">
+          <div class="sl-card3">
+            <div class="shown-card3">
+            <div class="sl-card-image">
+              <img src="/assets/Frame-1.png"/>
+            </div>
+            <div class="sl-cardac-content">
+              <p>SEGUROS </p>
+              <a href="#">PERSONALES</a>
+            </div>
+            </div>
+            <div class="hidden-card3">
+              <div class="hidden-card-content">
+                 <p>Vida Individual<br> Vida Grupo<br><br>
+                Accidentes<br>Personales</p>
+                <button class="hover-btn-card">VER MÁS</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide2">
+          <div class="sl-card4">
+            <div class="shown-card4">
+            <div class="sl-card-image">
+              <img src="/assets/Frame-4.png"/>
+            </div>
+            <div class="sl-cardac-content">
+              <p>OTROS</p>
+              <a href="#" style="padding-left: 60px;">SEGUROS</a>
+            </div>
+            </div>
+            <div class="hidden-card4">
+              <div class="hidden-card-content">
+                 <p>Vida Individual<br> Vida Grupo<br><br>
+                Accidentes<br>Personales</p>
+                <button class="hover-btn-card">VER MÁS</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination" style="top: 198px;margin-right: 55px;"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev custom-prev2" >
+        <img src="/assets/Path 1937.svg"/>
+      </div>
+      <div class="swiper-button-next custom-next2" >
+        <img src="/assets/Path 1937(1).svg"/>
+      </div>
+     </div>
+     </div>
+   </div>
+    
+ <div class="global_container">
+  <!-- Slider main container -->
+  
+ <div class="row-slider-search">
+  <div class="slider-search">
+   <!-- Slider main container -->
+  <div class="swiper-three"  >
+  <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide" style="width: 100%;
+    margin-right: 0px;
+    justify-content: center;
+    display: flex;">
+      <div class="content-service" >
+      <p class="card-text-ser">SERVICIO EN LÍNEA</p>
+      <img src="/assets/drop.svg"/>
+      <img src="/assets/cardimg1.png"/>
+      <p class="formal-txt">Solicitudes de Afiliación
+        Transacciones ARL
+        Certificados en Línea
+        Aporte a riesgos Laborales</p>
+        <div id="expandable-text" class="hidden">
+          <p>This is the expanded text that will be shown when the link is clicked.</p>
+        </div>
+        <span id="expand-link">+Ver otros servicios</span>
+      </div>
+    </div>
+    <div class="swiper-slide"id="bg-text" style="width: 100%;
+    margin-right: 0px;
+    justify-content: center;
+    display: flex;">
+      <div class="content-service">
+        <p class="card-text-ser" >FORMULARIOS</p>
+        <img src="/assets/drop.svg"/>
+        <img src="/assets/cardimg2.png"/>
+        <p class="formal-txt">    Riesgos Laborales   
+          Vida Individual    
+          Vida Grupo y
+          Accidentes Personales</p>
+          <div id="expandable-text2" class="hidden2">
+            <p>This is the expanded text that will be shown when the link is clicked.</p>
+          </div>
+         <span id="expand-link2">+Ver otros servicios</span>
+        </div>
+    </div>
+    <div class="swiper-slide"  style="width: 100%;
+    margin-right: 0px;
+    justify-content: center;
+    display: flex;">
+      <div class="content-service">
+        <p class="card-text-ser">TRÁMITES</p>
+        <i></i>
+        <img src="/assets/drop.svg"/>
+        <img src="/assets/cardimg3.png"/>
+        <p class="formal-txt">Riesgos Laborales
+          Vida Individual
+          Vida Grupo y 
+          Accidentes Personales</p>
+          <div id="expandable-text3" class="hidden3">
+            <p>This is the expanded text that will be shown when the link is clicked.</p>
+          </div>
+          <span id="expand-link3">+ Ver otros servicios</span>
+        </div>
+    </div>
+    </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination" style="transform: translateY(-1750%);"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev custom-prev3"  >
+    <img src="/assets/Path 1937.svg"/>
+  </div>
+  <div class="swiper-button-next custom-next3"  >
+    <img src="/assets/Path 1937(1).svg"/>
+  </div>
+
+  
+</div>
+  </div>
+  <div class="aside-search">
+      <div class="form-red">
+    <div class="top-buttons">
+      <button  onclick="toggleButtonAndContent(this, 'firstContent')" class="red-btn"  >Red Asistencial</button>
+      <button onclick="toggleButtonAndContent(this, 'secondContent')" class="gray-btn" >Punto de Atención</button>
+    </div>
+    <div class="form-header">
+      <p>Consulta Rapidamente tu red asistencial</p>
+    </div>
+    <div id="firstContent" class="content">
+   <form action="#" method="post"class="buscar">
+    <div class="input-1">
+      <label for="dept" style="text-align: left;"class="b-label"  >Departamento:</label> <br>
+      <select name="state" id="dept" class="drop-d">
+          <option value="usa">1</option>
+          <option value="france">2</option>
+            <option value="italy">3</option>
+              <option value="uk">4</option>
+               <option value="pk">5</option>
+         </select>
+     </div>
+     <div class="input-2">
+      <label for="dept" style="text-align: left;"class="b-label" >Ciudad:</label> <br>
+      <select name="state" id="dept"  class="drop-d">
+          <option value="usa">1</option>
+          <option value="france">2</option>
+            <option value="italy">3</option>
+              <option value="uk">4</option>
+               <option value="pk">5</option>
+         </select>
+     </div>
+     <div class="input-3">
+      <label for="dept" style="text-align: left;"class="b-label" >Selecciones Red:</label> <br>
+      <select name="state" id="dept"  class="drop-d">
+          <option value="usa">1</option>
+          <option value="france">2</option>
+            <option value="italy">3</option>
+              <option value="uk">4</option>
+               <option value="pk">5</option>
+         </select>
+     </div>
+     <div class="input-4">
+      <label for="dept" style="text-align: left;" class="b-label">Selecciones un Punto:</label> <br>
+      <select name="state" id="dept"  class="drop-d">
+          <option value="usa">1</option>
+          <option value="france">2</option>
+            <option value="italy">3</option>
+              <option value="uk">4</option>
+               <option value="pk">5</option>
+         </select>
+     </div>
+     <div class="btn-box">
+      <button type="submit" value="BOSCAR" class="submit-btn" >BUSCAR</button>
+  </div>
+   </form>
+   </div>
+   <div id="secondContent" class="content" style="display: none;">
+    <form action="#" method="post"class="buscar">
+      <div class="input-1">
+        <label for="dept" style="text-align: left;"class="b-label"  >Attentiona:</label> <br>
+        <select name="state" id="dept" class="drop-d">
+            <option value="usa">1</option>
+            <option value="france">2</option>
+              <option value="italy">3</option>
+                <option value="uk">4</option>
+                 <option value="pk">5</option>
+           </select>
+       </div>
+       <div class="input-2">
+        <label for="dept" style="text-align: left;"class="b-label" >Availablt:</label> <br>
+        <select name="state" id="dept"  class="drop-d">
+            <option value="usa">1</option>
+            <option value="france">2</option>
+              <option value="italy">3</option>
+                <option value="uk">4</option>
+                 <option value="pk">5</option>
+           </select>
+       </div>
+     
+       <div class="input-4">
+        <label for="dept" style="text-align: left;" class="b-label">Appn un Punto:</label> <br>
+        <select name="state" id="dept"  class="drop-d">
+            <option value="usa">1</option>
+            <option value="france">2</option>
+              <option value="italy">3</option>
+                <option value="uk">4</option>
+                 <option value="pk">5</option>
+           </select>
+       </div>
+       <div class="btn-box">
+        <button type="submit" value="BOSCAR" class="submit-btn" >SUBMITO</button>
+    </div>
+     </form>
+  </div>
+  </div>
+ </div>
+ </div>
+</div>
+ 
+   
+<div class="main-content">
+<div class="notices-bottom">
+  <div class="slider-left">
+    <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" >
+      <!-- Slides -->
+      <div class="swiper-slide" >
+        <img class="swiper-img" src="/assets/Capa 5 copia(4).png"/>
+      </div>
+      <div class="swiper-slide">
+        <img class="swiper-img" src="/assets/2nwfa.png" />
+      </div>
+      <div class="swiper-slide">
+        <img class="swiper-img"src="/assets/Capa 5 copia(4).png"/>
+      </div>
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev custom-prev4">
+      <img src="/assets/Path 1938.svg"/>
+    </div>
+    <div class="swiper-button-next custom-next4">
+      <img src="/assets/Path 1937(3).svg"/>
+    </div>
+  
+  </div>
+    </div>
+    <div class="content-right">
+      <div class="text-right">
+       <p class="headeing-c">Noticias</p>
+       <p class="headeing-c1">INFORMACIÓN IMPORTANTE PARA PENSIONADOS ARL</p>
+       <p class="text">De 3.194 personas que han sido notificadas para la realización de una valoración
+          médica para verificar el estado de invalidez, 1.867 pensionados aún no acuden a 
+          esta citación,lo que puede generar 
+          la suspensión en el pago de su mesada pensional. </p>
+          <button class="notice-btn">VER MÁS NOTICIAS</button>
+      </div>
+     </div> 
+     <div class="events-right">
+      <div class="event-header">
+        <p>Events</p>
+      </div>
+      <div class="slideable-content">
+        <div class="slider-container-events">
+          <div class="slidee active" id="slidee1">
+            <!-- Content of Slide 1 -->
+            <div class="slideable-content">
+              <div class="e-slidediv1">
+               <img src="/assets/date number-1.png"/>
+               <div class="e-slidediv1-content" >
+               <a href="#"class="event-h">Vacation Event</a>
+               <p class="time1">11th Dec, 2023<br>
+                12:00PM - 12:00AM</p>
+                </div>
+              </div>
+              <div class="e-slidediv2">
+                <img src="/assets/date number-2.png"/>
+               <div class="e-slidediv2-content">
+               <a href="#" class="event-h">Indoor Event</a>
+               <p class="time1">12th Dec, 2022<br>
+                12:00PM - 12:00AM</p>
+                </div>
+              </div>
+              <div class="e-slidediv3">
+                <img src="/assets/date number-2.png"/>
+                <div class="e-slidediv2-content">
+                <a href="#" class="event-h">Football Event</a>
+                <p class="time1">19th NOV, 2021<br>
+                 12:00PM - 12:00AM</p>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="slidee" id="slidee2">
+            <div class="slideable-content">
+              <div class="e-slidediv1">
+               <img src="/assets/date number.png"/>
+               <div class="e-slidediv1-content" >
+               <a href="#"class="event-h">Games Event</a>
+               <p class="time1">12th Dec, 2022<br>
+                12:00PM - 12:00AM</p>
+                </div>
+              </div>
+              <div class="e-slidediv2">
+                <img src="/assets/date number-1.png"/>
+               <div class="e-slidediv2-content">
+               <a href="#" class="event-h">Game Event</a>
+               <p class="time1">12th Dec, 2022<br>
+                12:00PM - 12:00AM</p>
+                </div>
+              </div>
+              <div class="e-slidediv3">
+                <img src="/assets/date number-2.png"/>
+                <div class="e-slidediv2-content">
+                <a href="#" class="event-h">Game Event</a>
+                <p class="time1">12th Dec, 2022<br>
+                 12:00PM - 12:00AM</p>
+                 </div>
+              </div>
+             
+              
+            </div>
+          </div>
+          <div class="slidee" id="slidee3">
+            <!-- Content of Slide 3 -->
+            <div class="slideable-content">
+              <div class="e-slidediv1">
+               <img src="/assets/date number-2.png"/>
+               <div class="e-slidediv1-content" >
+               <a href="#"class="event-h">Hockey Event</a>
+               <p class="time1">12th Jan, 2023<br>
+                11:00PM - 12:00AM</p>
+                </div>
+              </div>
+              <div class="e-slidediv2">
+                <img src="/assets/date number-1.png"/>
+               <div class="e-slidediv2-content">
+               <a href="#" class="event-h">PMEvent</a>
+               <p class="time1">19th Dec, 2023<br>
+                01:00PM - 03:00AM</p>
+                </div>
+              </div>
+              <div class="e-slidediv3">
+                <img src="/assets/date number.png"/>
+                <div class="e-slidediv2-content">
+                <a href="#" class="event-h">Game Event</a>
+                <p class="time1">12th Dec, 2022<br>
+                 12:00PM - 03:00AM</p>
+                 </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      
+       
+        <div class="controls" style="display: flex;">
+           <div class="back-arrow">
+            <button onclick="showSlide2('prev')"><img src="/assets/flat-color-icons_next(1).svg"/></button>
+           </div>
+           <div class="forward-arrow">
+            <button  onclick="showSlide2('next')"><img src="/assets/flat-color-icons_next(2).svg"/></button>
+           </div>
+           <div class="more-events">
+            <p  onclick="showSlide2('next')">More Events</p>
+           </div>
+        </div>
+      </div>
+     </div>
+</div>
+<div class="partticpation">
+   <div class="blogs-left">
+    <div class="content-blog">
+      <p class="head-blog">MECANISMOS DE PARTICIPACIÓN</p>
+      <p class="text-blog">Participa en nuestro canales de dialogo online</p>
+      <div class="buttons-on-blog" style="display: flex;">
+        <button class="btnleft">FOROS</button>
+        <button class="btnright">BLOGS</button>
+      </div>
+      </div>
+   </div>
+   <div class="newsletter-right">
+    <p class="heading-NEWS">News Letter</p>
+    <form method="post" action="index.html">
+      <input type="email" placeholder="Email" id="dept" style="border: 2px solid gray;">
+      <button type="submit" class="submit-btn">ENVIAR</button>
+    </form>
+   </div>
+</div>
+<div class="bottomiframe-row">
+  <div class="slider-bottomframe">
+    <div class="slider-bottom">
+      <div class="slide-b">
+        <img src="assets/Forma 13.png" alt="Image 1">
+        <div class="BS-text">Banner Slider 1 </div>
+      </div>
+      <div class="slide-b">
+        <img src="assets/slide2.png" alt="Image 2">
+        <div class="BS-text">Banner Slider 2</div>
+      </div>
+      <div class="slide-b">
+        <img src="assets/slide4.png" alt="Image 3">
+        <div class="BS-text">Banner Slider 3</div>
+      </div>
+    </div>
+  
+    <div class="dots-container">
+      <span class="dot" onclick="currentSlide1(1)"></span>
+      <span class="dot" onclick="currentSlide1(2)"></span>
+      <span class="dot" onclick="currentSlide1(3)"></span>
+    </div>
+  </div>
+  
+<div class="iframe-twitter">
+  <div class="tweet-header" style="display: flex;">
+  <p class="header-tweets">Tweets</p>
+  <a href="https://twitter.com/"><button class="twitter" ><img src="/assets/twitter.png"/>Seguir</button></a>
+  </div>
+  <div class="tweet">
+    <img src="/assets/Capa 4(1).png"/>
+  </div>
+
+</div>
+</div>
+<div class="lastpositivaframe" >
+  <div class="images-frame" style="display: flex;">
+   <img class="transcpa" src="/assets/image 1.png"/>
+   <img class="memebers" src="/assets/Trasparencia.png"/>
+  </div>
+  <div class="calendar">
+    <div class="cal-heading">
+      <p>EVENTO</p>
+    </div>
+    <input id="dept" type="date"/>
+  </div>
+ <div 
+</div>
+</div>
+</div>
+<div class="bottom-footer" >
+  <div class="left-vertical-image">
+    <img src="/assets/Objeto inteligente vectorial(11).svg"/>
+  </div>
+<div class="rows-icons">
+ <div class="row-1">
+    <div class="box-ico">
+      <img class="ico-img" src="/assets/Objeto inteligente vectorial.svg"/>
+      <p class="ico-txt">CONTRATACIÓN</p>
+    </div>
+    <div class="box-ico">
+      <img class="ico-img" src="/assets/Objeto inteligente vectorial(1).svg"/>
+      <p class="ico-txt">CONSUMIDOR<br>
+      <span class="bold-ico">FINANCIERO</span></p>
+    </div>
+    <div class="box-ico">
+      <img class="ico-img" src="/assets/Objeto inteligente vectorial-3.png"/>
+      <p class="ico-txt">SERVICIOS AL <br>
+      <span class="bold-ico">CIUDADANO</span></p>
+    </div>
+ </div>
+ <div class="row-2">
+  <div class="box-ico">
+    <img class="ico-img" src="/assets/Objeto inteligente vectorial(7).svg"/>
+    <p class="ico-txt">POSITIVA EN<br>
+      <span class="bold-ico">CONTÁCTO</span></p>
+  </div>
+  <div class="box-ico">
+    <img class="ico-img" src="/assets/Objeto inteligente vectorial(8).svg"/>
+    <p class="ico-txt">MAPA DE<br>
+      <span class="bold-ico">NAVEGACIÓN</span></p>
+  </div>
+  <div class="box-ico">
+    <img class="ico-img" src="/assets/Objeto inteligente vectorial(9).svg"/>
+    <p class="ico-txt">PREGUNTAS <br>
+      <span class="bold-ico">FRECUENTES</span></p>
+  </div>
+ </div>
+ <hr class="mobile-hr">
+</div>
+<div class="col-contact">
+<div class="con-1">
+  <img src="/assets/CALL.png"/>
+  <div class="text-con">
+    <span class="h-txt">Líneas de atención</span>
+    <span class="n-txt">Comunicate a nivel nacional</span>
+    <a class="tel-txt" href="tel:01-8000-111-170"><span >01-8000-111-170</span></a>
+    <span class="nn-txt">En Bogota</span>
+    <a class="tel2-txt" href="tel:330-7000"><span>330-7000</span></a>
+  </div>
+</div>
+<div class="con-1">
+  <img src="/assets/POINT.svg"/>
+  <div class="text-con">
+    <span class="h-txt">Puntos de Atención</span>
+    <a  class="n-txt"  href="https://maps.app.goo.gl/wVoaRy4DdSKKK9T49">Ubica el punto de atención más cercano</a>
+  </div>
+</div>
+<div class="con-1">
+  <img src="/assets/Frame-2.png"/>
+  <div class="text-con">
+    <span class="h-txt">Directorio de Funcionarios</span>
+    
+  </div>
+</div>
+<div class="con-last">
+  <img src="/assets/Frame-3.png"/>
+  <div class="text-con">
+    <span class="h-txt">Línea Ética</span>
+    <span class="fancy-txt">Presenta aquí tu caso
+    <span class="n-txt">de fraude o corrupción</span></span>
+    <a class="tel2-txt" href="tel:01-8000-112-870">01-8000-112-870</a>
+    <span class="h-electro">Correo electronico</span>
+    <div class="mail-holder">
+     <img src="/assets/MAIL.svg"/> 
+    <a href="mailto:servicioalcliente@positiva.gov.co" class="nn-txt">servicioalcliente@positiva.gov.co </a>
+    </div>
+    <div class="mail-holder">
+      <img src="/assets/MAIL.svg"/> 
+    <a href="mailto:notijicacionesjudiciales@popositiva.gov.co" class="nn-txt">notijicacionesjudiciales@popositiva.gov.co</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="mob-last-slider"> 
+ <!-- Slider main container -->
+<!-- Slider main container -->
+<div class="swiper-four" style="overflow: hidden;" >
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper"   >
+    <!-- Slides -->
+    <div class="swiper-slide" style="display: flex;">
+      <img src="/assets/image 2.png"/>
+      <img src="/assets/image 3.png"/>
+    </div>
+    <div class="swiper-slide ">
+      <img src="/assets/Capa 15.png"/>
+      <img src="/assets/Captura de pantalla 2017-07-19 a las 1.31.57 p.m. copia 3.png"/>
+    </div>
+    <div class="swiper-slide " >
+      <img src="/assets/Captura de pantalla 2017-07-19 a las 1.31.57 p.m. copia 2.png"/>
+      <img src="/assets/Captura de pantalla 2017-07-19 a las 1.31.57 p.m. copia 2.png"/>
+    </div> 
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+</div>
+<div class="last-copyright-section">
+  <div class="p-text">
+   <p class="nn-txt">Política de privacidad	Política editorial		Política de seguridad		Intranet	Admin</p>
+   <p class="nn-txt">Última actualización 	12/06/2015 11:45:00		Numero de visitantes: 1982448		Este portal funciona mejor en IE7+, Chrome 11+, Firefox 10+</p>
+  </div>
+  <div class="logo-positiva-last">
+   <img src="/assets/Objeto inteligente vectorial(10).svg"/>
+  </div>
+</div>
+</div>
+
+ <!---javascript-->
+ <script
+ src="https://code.jquery.com/jquery-3.4.0.slim.min.js"
+ integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI="
+ crossorigin="anonymous"></script>
+<script src="http://platform.twitter.com/widgets.js"></script>
+<script>
+  var tweets = $(".tweet");
+  
+  $(tweets).each( function( t, tweet ) { 
+
+    var id = $(this).attr('id');
+ 
+    twttr.widgets.createTweet(
+      id, tweet, 
+      {
+        conversation : 'none',    // or all
+        cards        : 'hidden',  // or visible 
+        linkColor    : '#cc0000', // default is blue
+        theme        : 'light'    // or dark
+      });
+
+    });
+</script>
+<script>
+  // Slideshow 1
+  let slideIndex1 = 1;
+
+  showSlides1(slideIndex1);
+
+  function currentSlide1(n) {
+    showSlides1(slideIndex1 = n);
+  }
+
+  function showSlides1(n) {
+    let i;
+    const slides = document.getElementsByClassName("slide-b");
+    const dots = document.getElementsByClassName("dot");
+
+    if (n > slides.length) {
+      slideIndex1 = 1;
+    }
+
+    if (n < 1) {
+      slideIndex1 = slides.length;
+    }
+
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+
+    slides[slideIndex1 - 1].style.display = "block";
+    dots[slideIndex1 - 1].className += " active";
+  }
+</script>
+
+
+<script>
+  // Slideshow 2
+  let currentSlide2 = 1;
+
+  function showSlide2(direction) {
+    const slides = document.querySelectorAll('.slidee');
+
+    if (direction === 'next') {
+      currentSlide2 = (currentSlide2 % slides.length) + 1;
+    } else if (direction === 'prev') {
+      currentSlide2 = (currentSlide2 - 2 + slides.length) % slides.length + 1;
+    }
+
+    for (const slide of slides) {
+      slide.classList.remove('active');
+    }
+
+    document.getElementById(`slidee${currentSlide2}`).classList.add('active');
+  }
+
+  // Initially show the first slide
+  showSlide2('next');
+</script>
+
+<script>
+ function toggleButtonAndContent(clickedButton, contentId) {
+    var buttons = document.querySelectorAll('.top-buttons button');
+    var allContentDivs = document.querySelectorAll('.content');
+
+    buttons.forEach(function (button) {
+        button.classList.remove('active');
+        if (button.classList.contains('gray-btn')) {
+            button.classList.remove('gray-btn');
+            button.classList.add('red-btn');
+        } else {
+            button.classList.remove('red-btn');
+            button.classList.add('gray-btn');
+        }
+    });
+
+    clickedButton.classList.add('active');
+
+    allContentDivs.forEach(function (div) {
+        div.style.display = 'none';
+    });
+
+    var selectedContentDiv = document.getElementById(contentId);
+    selectedContentDiv.style.display = 'block';
+}
+
+</script>
+ <script>
+  function toggleCompany() {
+      var companyContent = document.getElementById("companyContent");
+      companyContent.style.display = (companyContent.style.display === 'none') ? 'block' : 'none';
+  }
+  function closecompany(){
+    var companyContent = document.getElementById("companyContent");
+      companyContent.style.display = (companyContent.style.display === 'none') ;
+
+  }
+</script>
+
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+  const swipercards = new Swiper('.swipercards', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  slidesPerView: 1,
+  spaceBetween:10, // You can adjust the space between slides as needed
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.custom-next2',
+    prevEl: '.custom-prev2',
+  },
+  breakpoints: { 
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 17
+    },
+  },
+});
+
+</script>
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+  const swiperthree = new Swiper('.swiper-three', {
+
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.custom-next3',
+    prevEl: '.custom-prev3',
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 97
+    },
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 17
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 17
+    },
+  }
+});
+
+</script>
+<script>
+  document.getElementById('expand-link').addEventListener('click', function() {
+    var expandableText = document.getElementById('expandable-text');
+    // Toggle the 'hidden' class to show/hide the text
+    expandableText.classList.toggle('hidden');
+  });
+  document.getElementById('expand-link2').addEventListener('click', function() {
+    var expandableText = document.getElementById('expandable-text2');
+    // Toggle the 'hidden' class to show/hide the text
+    expandableText.classList.toggle('hidden2');
+  });
+  document.getElementById('expand-link3').addEventListener('click', function() {
+    var expandableText = document.getElementById('expandable-text3');
+    // Toggle the 'hidden' class to show/hide the text
+    expandableText.classList.toggle('hidden3');
+  });
+</script>
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+  const swiperffour = new Swiper('.swiper-four', {
+
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.custom-next5',
+    prevEl: '.custom-prev5',
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 97
+    },
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 17
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 17
+    },
+  },
+});
+
+</script>
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+  const swiperfour = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.custom-next4',
+    prevEl: '.custom-prev4',
+  },
+  
+  768: {
+      slidesPerView: 1,
+      spaceBetween: 3459
+    },
+  // And if we need scrollbar
+ 
+});
+
+</script>
+<!-- Add Owl Carousel and jQuery JS -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Initialize Owl Carousel -->
+<script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      items: 1,
+      loop: true,
+      nav: true,
+      dots: false,
+      navText: ["<img src='/assets/arrow-circle-left.png' alt=''>", "    <img src='/assets/arrow-circle-right.png' alt=''>"],
+    });
+  });
+</script>
+<script>
+function toggleMobileMenu(image) {
+      var mobileMenu = document.getElementById('mobileMenu');
+      var mobileNavIcon = document.getElementById('mobileNavIcon');
+
+      if (mobileMenu.style.display === 'block') {
+        mobileMenu.style.display = 'none';
+        mobileNavIcon.src = 'assets/feather_menu.svg';
+      } else {
+        mobileMenu.style.display = 'block';
+        mobileNavIcon.src = 'assets/Shape.svg';
+      }
+    }
+</script>
+<script>
+  function toggleDivVisibility() {
+    var toggleDiv = document.getElementById("toggleDiv");
+
+    if (toggleDiv.style.display === "block" || toggleDiv.style.display === "") {
+      toggleDiv.style.display = "none";
+    } else {
+      toggleDiv.style.display = "block";
+    }
+  }
+</script>
+</body>
+</html>
