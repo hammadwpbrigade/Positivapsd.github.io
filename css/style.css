@@ -170,7 +170,7 @@ header{
     content: "Proceso ante";
     border-width: 10%;
     border-bottom: 10px solid transparent; 
-    background-image: linear-gradient(to right,#3D4E5A,#3D4E5A), url('/assets/Forma\ 3\ copia\ 2.png'); 
+    background-image: linear-gradient(to right,#3D4E5A,#3D4E5A), url('assets/Forma\ 3\ copia\ 2.png'); 
     background-origin: border-box;
     background-clip: content-box, border-box;
     background-size:100%; 
@@ -184,7 +184,7 @@ header{
 .icon2::after{
     content: "Iniciar sesión";
     border-bottom: 10px solid transparent; 
-    background-image: linear-gradient(to right,#3D4E5A,#3D4E5A), url('/assets/Forma\ 3\ copia\ 2.png'); 
+    background-image: linear-gradient(to right,#3D4E5A,#3D4E5A), url('assets/Forma\ 3\ copia\ 2.png'); 
     background-origin: border-box;
     background-clip: content-box, border-box;
     background-size:100%;   
@@ -554,7 +554,7 @@ line-height: normal
 }
 .sl-card4:hover > .hidden-card4{
   display: block;
-  background-image: url(/assets/118426809.png);
+  background-image: url(assets/118426809.png);
   background-size: cover;
   height: 179.83px;
 }
@@ -917,7 +917,7 @@ line-height: normal;
   }
  
 .drop-d{
-  background-image:url('/assets/drop.svg');
+  background-image:url('assets/drop.svg');
     background-position:
       calc(100% - 20px) calc(1em + 2px),
       calc(100% - 15px) calc(1em + 2px),
@@ -946,7 +946,7 @@ width: max-content;
     color: rgba(0, 0, 0, 0);
     opacity: 1;
     display: block;
-    background: url(/assets/calendar\ copia.png) no-repeat;
+    background: url(assets/calendar\ copia.png) no-repeat;
     width: 20px;
     height: 20px;
     border-width: thin;
@@ -981,7 +981,7 @@ line-height:1px;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url(/assets/pantella.png);
+    background-image: url(assets/pantella.png);
     padding-top: 1px;
   
     
@@ -989,7 +989,7 @@ line-height:1px;
   .main-content{
     width: 100%;
     justify-content: center;
-    background-image: url(/assets/pantella.png);
+    background-image: url(assets/pantella.png);
     padding-top: 1px;
     transform: translateY(-12%);
   }
@@ -1004,7 +1004,7 @@ line-height:1px;
     height: 138px; 
    margin-right: 10px;
     padding-top: 23px;
-    background-image: url(/assets/bane.png);
+    background-image: url(assets/bane.png);
     background-size: cover;
   }
   .partticpation{
