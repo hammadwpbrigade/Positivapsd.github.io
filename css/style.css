@@ -11,6 +11,9 @@ body{
 .owl-carousel {
   position: relative;
 }
+.drop-ico{
+  padding-left: 65px;
+}
 .toptxt_slider{
   z-index: 1;
   width: 100%;
