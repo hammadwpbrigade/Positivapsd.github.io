@@ -536,19 +536,19 @@ line-height: normal
 }
 .sl-card2:hover > .hidden-card2{
   display: block;
-  background-image: url(/assets/118426809.png);
+  background-image: url(assets/118426809.png);
   background-size: cover;
   height: 179.83px;
 }
 .sl-card1:hover > .hidden-card1{
   display: block;
-  background-image: url(/assets/118426809.png);
+  background-image: url(assets/118426809.png);
   background-size: cover;
   height: 179.83px;
 }
 .sl-card3:hover > .hidden-card3{
   display: block;
-  background-image: url(/assets/118426809.png);
+  background-image: url(assets/118426809.png);
   background-size: cover;
   height: 179.83px;
 }
